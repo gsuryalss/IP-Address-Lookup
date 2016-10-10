@@ -1,24 +1,24 @@
 #!/usr/bin/perl
 
-#####################################################################################
-#																					#
-# IP Address Finder																	#
-# Copyright (C) 2016 surya 															#
-#																					#
-# This program is free software: you can redistribute it and/or modify				#
-# it under the terms of the GNU General Public License as published by				#
-# the Free Software Foundation, either version 3 of the License, or					#
-# (at your option) any later version.												#
-#																					#
-# please see the GNU General Public License for more details.						#
-# <http://www.gnu.org/licenses/>													#
-#																					#	
+#########################################################################################
+#											#
+# IP Address Finder									#
+# Copyright (C) 2016 surya 								#
+#											#
+# This program is free software: you can redistribute it and/or modify			#
+# it under the terms of the GNU General Public License as published by			#
+# the Free Software Foundation, either version 3 of the License, or			#
+# (at your option) any later version.							#
+#											#
+# please see the GNU General Public License for more details.				#
+# <http://www.gnu.org/licenses/>							#
+#											#	
 # Usage : Retrieves IP address details in JSON format and write it in text file.	#
-# API Courtesy : http://ip-api.com/													#
-#																					#
-# Version log :  																	#
-#				- 10/10/2016 Initial version										#
-#####################################################################################
+# API Courtesy : http://ip-api.com/							#
+#											#										#
+# Version log :  									#
+#				- 10/10/2016 Initial version				#
+#########################################################################################
 use strict;
 use warnings;
 use HTTP::Tiny;
